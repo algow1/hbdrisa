@@ -3,6 +3,7 @@ import './App.css';
 import Music from './views/Music';
 import Wisher from './views/Wisher';
 import Gallery from './views/Gallery';
+import music from './hbd.mp3';
 // import {Transition} from 'semantic-ui-react'
 
 class App extends Component {
@@ -15,8 +16,8 @@ class App extends Component {
         visible: true
       }
     }
-    this.url = "../hbd.mp3";
-    this.audio = new Audio(this.url);
+    // this.url = "hbd.mp3";
+    this.audio = new Audio(music);
   }
 
   handlePlay = () => {
