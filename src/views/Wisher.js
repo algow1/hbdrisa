@@ -41,7 +41,7 @@ class Wisher extends Component {
   }
 
   animate = () => {
-    const bg = ['#3fd7ff', '#25d2ff', '#0ccdff', '#00bff1'];
+    const bg = ['#59dcff', '#3fd7ff', '#25d2ff', '#0ccdff', '#00bff1', '#00bff2'];
 
     let lamp = this.state.lamp.sort(() => Math.random() - 0.9)
     this.setState({
@@ -81,7 +81,7 @@ class Wisher extends Component {
             MozTransition: "all .5s ease"
           }}
         >
-          <Grid.Row columns={6} textAlign='center' style={{height: '20%'}}>
+          <Grid.Row columns={6} textAlign='center' verticalAlign='middle' style={{height: '20%'}}>
             <Grid.Column><span className="dot" style={{backgroundColor: this.state.lamp[0]}}></span></Grid.Column>
             <Grid.Column><span className="dot" style={{backgroundColor: this.state.lamp[1]}}></span></Grid.Column>
             <Grid.Column><span className="dot" style={{backgroundColor: this.state.lamp[2]}}></span></Grid.Column>
@@ -116,7 +116,7 @@ class Wisher extends Component {
 
           <Grid.Row columns={1} style={{height: '25%'}}>
             <Transition visible={this.state.wishButton} animation='scale' duration={2000} >
-              <Grid.Column verticalAlign='bottom' textAlign='center'>
+              <Grid.Column verticalAlign='middle' textAlign='center'>
                 <Button 
                   onClick={this.toggleVisibility}
                   color='orange' 
@@ -137,8 +137,8 @@ class Wisher extends Component {
 
             <Transition visible={this.state.swipeDown} animation='scale' duration={2000}>
               <Grid.Column verticalAlign='bottom' textAlign='center'>
-                <Button icon labelPosition='right' color='blue'>
-                  Swipe Down
+                <Button icon labelPosition='right' color='blue' onClick={this.props.onGallery}>
+                  Swipe
                   <Icon name='angle double down' />
                 </Button>
               </Grid.Column>

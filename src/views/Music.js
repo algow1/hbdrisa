@@ -14,7 +14,7 @@ class Music extends Component {
               <Grid textAlign='center'>
                 <Button 
                   size='huge'
-                  style={{marginBottom: '10px'}}
+                  style={{marginBottom: '40px'}}
                   color='blue' 
                   onClick={this.props.onPlay}
                 >

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './App.css';
 import Music from './views/Music';
 import Wisher from './views/Wisher';
 import Gallery from './views/Gallery';
 import music from './hbd.mp3';
+
 // import {Transition} from 'semantic-ui-react'
 
 class App extends Component {
@@ -16,7 +16,6 @@ class App extends Component {
         visible: true
       }
     }
-    // this.url = "hbd.mp3";
     this.audio = new Audio(music);
   }
 
@@ -29,22 +28,31 @@ class App extends Component {
     // setTimeout(function(){ this.setState({page: 'wisher'}); }.bind(this), 1500);
   }
 
+  handleGallery = () => {
+    this.setState({page: 'gallery'});
+  }
+
   render() {
+    let display;
+
+    switch (this.state.page) {
+      case 'wisher':
+        display = <Wisher onGallery={this.handleGallery} />;
+        break;
+    
+      case 'gallery':
+        display = <Gallery />;
+        break;
+
+      default:
+        display = <Music onPlay={this.handlePlay} music={this.state.music} />;
+        break;
+    }
+    
     return(
       <div>
-        {
-          (this.state.page === '') 
-          ?
-            <Music onPlay={this.handlePlay} music={this.state.music} /> 
-          :
-            (this.state.page === 'wisher') 
-            ?
-              <Wisher />
-            :
-              <Gallery />
-        }
+        {display}
       </div>
-      
     )
   }
 }
