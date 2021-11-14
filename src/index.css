@@ -10,7 +10,7 @@ body {
 }
 
 #wisher {
-  animation: fadein 5s;
+  animation: fadein 10s;
 }
 
 
@@ -29,8 +29,8 @@ code {
 }
 
 .dot {
-  height: 40px;
-  width: 40px;
+  height: 33px;
+  width: 33px;
   /* background-color: #bbb; */
   border-radius: 50%;
   display: inline-block;

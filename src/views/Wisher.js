@@ -76,9 +76,9 @@ class Wisher extends Component {
           style={{
             backgroundColor: this.state.bg, 
             height: '100vh', 
-            transition: "all .5s ease",
-            WebkitTransition: "all .5s ease",
-            MozTransition: "all .5s ease"
+            transition: "all .8s ease",
+            WebkitTransition: "all .8s ease",
+            MozTransition: "all .8s ease"
           }}
         >
           <Grid.Row columns={6} textAlign='center' verticalAlign='middle' style={{height: '20%'}}>
