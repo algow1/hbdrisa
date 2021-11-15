@@ -103,7 +103,7 @@ class Wisher extends Component {
 
           <Grid.Row columns={1} textAlign='center' style={{height: '20%'}}>
             <Grid.Column verticalAlign='top'>
-              <Header as='h1' style={{fontSize: '36px', color: '#fff' }}>Risa Nur Andani</Header>
+              <Header as='h1' style={{fontSize: '48px', color: '#fff' }}>Risa Nur Andani</Header>
             </Grid.Column>
           </Grid.Row>
 
