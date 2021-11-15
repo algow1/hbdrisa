@@ -10,13 +10,15 @@ class Wisher extends Component {
 
     this.ucapan = [
       'Selamat ulang tahun manusia favoritku',
-      'Semoga selalu bahagia',
+      'Semoga selalu dalam lindungan-Nya',
       'Tercapai semua yang kamu impikan',
       'Semoga tahun depan lulus tubel',
-      'Biar bisa pulang seminggu sekali',
+      'Biar bisa sering pulang',
+      'Aku yakin kok sama kemampuanmu',
       'Yang paling penting....',
-      'Tetep jadi risa yang selalu ceria dan tahan banting',
-      'I love you ❤️❤️❤️'
+      'Semoga kamu selalu bahagia',
+      'Selalu menjadi Risa yang apa adanya',
+      'I love you, Risa ❤️❤️❤️'
     ];
 
     this.state = {
