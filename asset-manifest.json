@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hbdrisa/static/css/main.b7e06c8e.chunk.css",
-    "main.js": "/hbdrisa/static/js/main.8939eded.chunk.js",
-    "main.js.map": "/hbdrisa/static/js/main.8939eded.chunk.js.map",
+    "main.js": "/hbdrisa/static/js/main.40ae4208.chunk.js",
+    "main.js.map": "/hbdrisa/static/js/main.40ae4208.chunk.js.map",
     "runtime-main.js": "/hbdrisa/static/js/runtime-main.78cc6944.js",
     "runtime-main.js.map": "/hbdrisa/static/js/runtime-main.78cc6944.js.map",
     "static/css/2.6938ddc8.chunk.css": "/hbdrisa/static/css/2.6938ddc8.chunk.css",
@@ -41,6 +41,6 @@
     "static/css/2.6938ddc8.chunk.css",
     "static/js/2.9dff979d.chunk.js",
     "static/css/main.b7e06c8e.chunk.css",
-    "static/js/main.8939eded.chunk.js"
+    "static/js/main.40ae4208.chunk.js"
   ]
 }
