@@ -14,7 +14,7 @@ class Wisher extends Component {
       'Tercapai semua yang kamu impikan',
       'Semoga tahun depan lulus tubel',
       'Biar bisa sering pulang',
-      'Aku yakin sama kemampuanmu',
+      'Aku yakin kamu pasti bisa',
       'Yang paling penting....',
       'Semoga kamu selalu bahagia',
       'Selalu menjadi Risa yang apa adanya',
