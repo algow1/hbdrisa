@@ -9,11 +9,14 @@ class Wisher extends Component {
     super(props);
 
     this.ucapan = [
-      'Selamat ulang tahun, sayang', 
-      'Semoga selalu berbahagia',
-      'Ut enim ad minim veniam', 
-      'Duis aute irure dolor in reprehenderit',
-      '❤️❤️❤️'
+      'Selamat ulang tahun manusia favoritku',
+      'Semoga selalu bahagia',
+      'Tercapai semua yang kamu impikan',
+      'Semoga tahun depan lulus tubel',
+      'Biar bisa pulang seminggu sekali',
+      'Yang paling penting....',
+      'Tetep jadi risa yang selalu ceria dan tahan banting',
+      'I love you ❤️❤️❤️'
     ];
 
     this.state = {
@@ -98,7 +101,7 @@ class Wisher extends Component {
 
           <Grid.Row columns={1} textAlign='center' style={{height: '20%'}}>
             <Grid.Column verticalAlign='top'>
-              <Header as='h1' style={{fontSize: '48px', color: '#fff' }}>Risa Nur Andani</Header>
+              <Header as='h1' style={{fontSize: '36px', color: '#fff' }}>Risa Nur Andani</Header>
             </Grid.Column>
           </Grid.Row>
 
